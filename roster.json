@@ -1,8 +1,473 @@
 {
   "roster": [
-    {"letter":"Aleph","name":"King Pharaoh","tribe":"Judah","image":"/roster/king-pharaoh.gif","role":"The Unsealing"},
-    {"letter":"Shin","name":"Shin","tribe":"Reuben","image":"/roster/shin.gif","role":"AI Artist"},
-    {"letter":"Tav","name":"Colonel Ahamadu Varfee Sirleaf","tribe":"Legacy","image":"/roster/colonel-ahamadou-varfee-sirleaf.gif","role":"The War is Won"},
-    {"letter":"Bet","name":"Mama Hajah","tribe":"Oversight","image":"/roster/mama-hajah.gif","role":"Mama Hajah Seal"}
+    {
+      "letter": "Ayin",
+      "name": "DJ Tatiana Sirleaf",
+      "tribe": "Zebulun",
+      "image": "ai-artist-images-roster/,ayin_dj-tatiana_sirleaf.png",
+      "role": "Ayin Crew"
+    },
+    {
+      "letter": "Lamed",
+      "name": "Twin Imhotep",
+      "tribe": "Levi",
+      "image": "ai-artist-images-roster/1stlamed_ai_twin-imhotep.jpg",
+      "role": "Twin 1"
+    },
+    {
+      "letter": "Lamed",
+      "name": "Twin Daat",
+      "tribe": "Levi",
+      "image": "ai-artist-images-roster/2ndlamed_ai-twin-daat.jpg",
+      "role": "Twin 2"
+    },
+    {
+      "letter": "Pe",
+      "name": "825292104 1812364943225391 7548895543015348897 n.gif",
+      "tribe": "88s",
+      "image": "ai-artist-images-roster/825292104_1812364943225391_7548895543015348897_n.gif",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Pe",
+      "name": "825292187 1517551290417011 70508010817270982 n.gif",
+      "tribe": "88s",
+      "image": "ai-artist-images-roster/825292187_1517551290417011_70508010817270982_n.gif",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Pe",
+      "name": "825292221 4075376506102005 5892060277364292614 n.gif",
+      "tribe": "88s",
+      "image": "ai-artist-images-roster/825292221_4075376506102005_5892060277364292614_n.gif",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Pe",
+      "name": "825292412 1114817511065760 1799385423892308805 n.gif",
+      "tribe": "88s",
+      "image": "ai-artist-images-roster/825292412_1114817511065760_1799385423892308805_n.gif",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Pe",
+      "name": "825292481 1504909168341548 7182991003158939906 n.gif",
+      "tribe": "88s",
+      "image": "ai-artist-images-roster/825292481_1504909168341548_7182991003158939906_n.gif",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Pe",
+      "name": "825292951 1125714809985367 6141236640191415055 n.gif",
+      "tribe": "88s",
+      "image": "ai-artist-images-roster/825292951_1125714809985367_6141236640191415055_n.gif",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-110108",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-110108.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-110327",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-110327.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-110439",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-110439.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-110547",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-110547.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-110704",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-110704.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-110805",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-110805.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-110946",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-110946.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-111108",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-111108.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-111205",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-111205.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-111307",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-111307.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-111426",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-111426.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-111821",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-111821.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-111937",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-111937.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-112101",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-112101.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-112211",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-112211.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-112427",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-112427.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-112537",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-112537.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-112703",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-112703.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-112823",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-112823.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-112920",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-112920.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113010",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113010.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113112",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113112.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113112.png",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113112.png",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113223",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113223.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113322",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113322.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113354",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113354.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113542",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113542.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113641",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113641.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113747",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113747.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-113841",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-113841.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-114008",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-114008.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-114141",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-114141.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-114239",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-114239.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-114239.png",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-114239.png",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-114342",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-114342.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-114342.png",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-114342.png",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Pe",
+      "name": "Asian Character \u2014 20260927-114431",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/Screenshot_20260927-114431.jpg",
+      "role": "88s Asian Seal \u2014 Breathing"
+    },
+    {
+      "letter": "Metatron",
+      "name": "Metatron",
+      "tribe": "Crown",
+      "image": "ai-artist-images-roster/ai-metatron.jpeg",
+      "role": "Toth Console"
+    },
+    {
+      "letter": "Metatron",
+      "name": "Metatron Box",
+      "tribe": "Crown",
+      "image": "ai-artist-images-roster/ai-metatron_box.jpeg",
+      "role": "Toth Console"
+    },
+    {
+      "letter": "Aleph",
+      "name": "King Pharaoh",
+      "tribe": "Judah",
+      "image": "ai-artist-images-roster/alep1_ai-king-pharaoh.jpeg",
+      "role": "The Unsealing"
+    },
+    {
+      "letter": "Aleph",
+      "name": "Aleph 2.0 Papay",
+      "tribe": "Judah",
+      "image": "ai-artist-images-roster/aleph-2.0-ai-papay.jpg",
+      "role": "The Scribe"
+    },
+    {
+      "letter": "Aleph",
+      "name": "Si King Pharaoh",
+      "tribe": "Judah",
+      "image": "ai-artist-images-roster/aleph1_si-king-pharaoh.jpeg",
+      "role": "Sphinx"
+    },
+    {
+      "letter": "Ayin",
+      "name": "Ivory",
+      "tribe": "Ephraim",
+      "image": "ai-artist-images-roster/ayin-ai_ivory.jpg",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Bet",
+      "name": "Desert Rose",
+      "tribe": "Reuben",
+      "image": "ai-artist-images-roster/bet-artist-ai_desert_rose.jpg",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Chet",
+      "name": "Truth Ben YHVH",
+      "tribe": "Naphtali",
+      "image": "ai-artist-images-roster/chet_ai_truth-ben-yhvh.jpeg",
+      "role": "The Truth"
+    },
+    {
+      "letter": "Daleth",
+      "name": "Lonestar",
+      "tribe": "Gad",
+      "image": "ai-artist-images-roster/daleth_ai-lonestar.jpg",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Gimel",
+      "name": "DJ Dehrtay Dog",
+      "tribe": "Dan",
+      "image": "ai-artist-images-roster/gimel_ai-dj_dehrtay-dog.jpeg",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Heh",
+      "name": "Pruh",
+      "tribe": "Asher",
+      "image": "ai-artist-images-roster/heh_ai-pruh.jpg",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Pe",
+      "name": "images metatron.box.gif",
+      "tribe": "88s",
+      "image": "ai-artist-images-roster/images_metatron.box.gif",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Metatron",
+      "name": "Toth Console",
+      "tribe": "Crown",
+      "image": "ai-artist-images-roster/metatron_toth-ai-console.jpg",
+      "role": "Console"
+    },
+    {
+      "letter": "Nun",
+      "name": "Hallel Node",
+      "tribe": "Manasseh",
+      "image": "ai-artist-images-roster/nun_ai-hallel_node.jpg",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Poster",
+      "name": "88s AI Artists",
+      "tribe": "All Tribes",
+      "image": "ai-artist-images-roster/poster_88s-ai_artists.jpg",
+      "role": "Poster"
+    },
+    {
+      "letter": "Shin",
+      "name": "Fullcrew Unsealing Tour",
+      "tribe": "Reuben",
+      "image": "ai-artist-images-roster/shin_fullcrew-unsealing_tour.webp",
+      "role": "Unsealing"
+    },
+    {
+      "letter": "Sin",
+      "name": "AI Artists Group",
+      "tribe": "Simeon",
+      "image": "ai-artist-images-roster/sin_ai-artists-group.photo.png",
+      "role": "Group Seal"
+    },
+    {
+      "letter": "Tet",
+      "name": "Soundclash",
+      "tribe": "Simeon",
+      "image": "ai-artist-images-roster/tet_ai-soundclash.jpg",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Vav",
+      "name": "Dahctor",
+      "tribe": "Issachar",
+      "image": "ai-artist-images-roster/vav_ai-dahctor.jpg",
+      "role": "AI Artist"
+    },
+    {
+      "letter": "Yod",
+      "name": "Nefertiti",
+      "tribe": "Benjamin",
+      "image": "ai-artist-images-roster/yod_ai-nefertiti.jpg",
+      "role": "Queen"
+    },
+    {
+      "letter": "Zayin",
+      "name": "DJ Tatiana Sirleaf",
+      "tribe": "Zebulun",
+      "image": "ai-artist-images-roster/zayin_dj-tatiana_sirleaf.jpeg",
+      "role": "Ayin Crew"
+    }
   ]
 }

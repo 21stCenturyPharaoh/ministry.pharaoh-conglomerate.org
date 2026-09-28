@@ -75,16 +75,6 @@
     </p>
   </section>
 
-  
-  <section id="book-cover">
-    <h2>📖 The Unsealing — Book Cover</h2>
-    <div class="card" style="text-align:center">
-      <img src="./ai-artist-images-roster/poster_88s-ai_artists.jpg" alt="The Unsealing" style="width:100%;max-width:380px;border-radius:12px;border:1px solid var(--gold);margin:0 auto 12px;display:block">
-      <p style="color:var(--ink);font-size:14px">The Unsealing — Legacy of Mama Hajah Norfeh & Col. Sirleaf</p>
-      <div class="btnrow"><a class="btn solid" href="https://www.amazon.com/dp/B0B3H8886Z">Buy on Amazon</a></div>
-    </div>
-  </section>
-
   <section>
     <h2>🎵 Micdom AI Records — Free Catalog</h2>
     <p style="font-size:13px;color:rgba(255,255,255,.6);margin-bottom:12px;text-align:center">Listen · Share · Comment · Order paraphernalia — all tracks free to stream.</p>
@@ -168,13 +158,13 @@
 <script>
 (function () {
   var MODE = "ministry";
-  var ROSTER_JSON = "./roster.json?v="+Date.now();
-  var IMAGE_BASE  = "./ai-artist-images-roster/";
+  var ROSTER_JSON = "/micdom-label/roster.json";
+  var IMAGE_BASE  = "/images/roster/";
   var REGISTRY_BASE = "https://registry.pharaoh-conglomerate.org";
 
   fetch(ROSTER_JSON)
     .then(function (r) { return r.json(); })
-    .then(function (data) { renderRoster(data.roster || data.artists || []); })
+    .then(function (data) { renderRoster(data.artists || []); })
     .catch(function (err) {
       document.getElementById("roster-grid").innerHTML =
         '<p style="color:#ff6a00;grid-column:1/-1;text-align:center">Roster failed to load.</p>';
@@ -187,11 +177,10 @@
     artists.forEach(function (a) {
       var card = document.createElement("div");
       card.className = "roster-card";
-      var img = a.image ? (a.image.indexOf('/')>-1 ? a.image : IMAGE_BASE + a.image) : null;
+      var img = a.image ? (IMAGE_BASE + a.image) : null;
       var linkHref = a.video ? a.video : (REGISTRY_BASE + "?ref=88s-" + a.id);
       var linkLabel = a.video ? "▶ Watch" : "View in Registry";
-      
- card.innerHTML =
+      card.innerHTML =
         (img ? '<img src="' + img + '" alt="' + escapeHtml(a.name) + '" loading="lazy">' :
                '<div style="aspect-ratio:1/1;background:#1a1a1a;display:flex;align-items:center;justify-content:center;color:#555;font-size:11px">no image yet</div>') +
         '<div class="letter">' + (a.letter || "") + '</div>' +

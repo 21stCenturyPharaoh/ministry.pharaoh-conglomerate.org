@@ -1,0 +1,8 @@
+{
+  "roster": [
+    {"letter":"Aleph","name":"King Pharaoh","tribe":"Judah","image":"/roster/king-pharaoh.gif","role":"The Unsealing"},
+    {"letter":"Shin","name":"Shin","tribe":"Reuben","image":"/roster/shin.gif","role":"AI Artist"},
+    {"letter":"Tav","name":"Colonel Ahamadu Varfee Sirleaf","tribe":"Legacy","image":"/roster/colonel-ahamadou-varfee-sirleaf.gif","role":"The War is Won"},
+    {"letter":"Bet","name":"Mama Hajah","tribe":"Oversight","image":"/roster/mama-hajah.gif","role":"Mama Hajah Seal"}
+  ]
+}

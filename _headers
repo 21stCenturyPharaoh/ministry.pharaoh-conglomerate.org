@@ -1,0 +1,6 @@
+/roster.json
+  Cache-Control: no-cache, no-store, must-revalidate
+/ai-artist-images-roster/*
+  Cache-Control: public, max-age=3600
+/*.html
+  Cache-Control: no-cache

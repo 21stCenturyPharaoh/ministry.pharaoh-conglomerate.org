@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<title>Unsealing the Prophets | Pharaoh Angels Inc. · Micdom AI Records</title>
+<meta name="description" content="Micdom AI Records, a division of Pharaoh Angels Inc.: The 88s AI artists, Kingdom Drill, The Unsealing Tour, books, merch and live events.">
+<style>
+:root{--gold:#d4af37;--gold2:#ffe7a0;--orange:#ff6a00;--bg:#050505;--card:#0f0f0f;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--white);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.6;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:var(--gold2)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 16px 60px}
+header{border-bottom:1px solid rgba(212,175,55,.25)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:center;padding:28px 0}
+.hero img{width:100%;max-height:560px;object-fit:cover;border-radius:12px;border:1px solid rgba(212,175,55,.3)}
+.kicker{color:var(--gold);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:800}
+h1{color:var(--gold2);font-size:clamp(28px,7vw,48px);line-height:1.1;margin:.3em 0;font-weight:900}
+h2{color:var(--gold);font-size:clamp(18px,4vw,24px);margin:0 0 14px;letter-spacing:.04em}
+.lead{color:rgba(255,255,255,.8)}
+nav{display:flex;flex-wrap:wrap;gap:8px;padding:0 0 18px}
+.btnrow{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+a.btn{display:inline-block;padding:10px 16px;border:1px solid var(--gold);border-radius:999px;color:var(--gold);text-decoration:none;font-size:13px;font-weight:600}
+a.btn.solid{background:var(--orange);border-color:var(--orange);color:#000}
+section{margin-top:40px}
+.card{background:var(--card);border:1px solid rgba(212,175,55,.18);border-radius:12px;padding:16px}
+.card p,.muted{font-size:13px;color:rgba(255,255,255,.65);margin-top:6px}
+.grid2{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:600px){.grid2{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.hero{grid-template-columns:1fr}}
+.platform-card{background:var(--card);border:1px solid rgba(212,175,55,.18);border-radius:12px;overflow:hidden;text-decoration:none;color:inherit;display:block}
+.platform-card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#000}
+.platform-card .body{padding:12px}
+.platform-card b{font-size:13px}
+.platform-card p{font-size:12px;color:rgba(255,255,255,.6);margin-top:4px}
+.platform-card .watch{display:inline-block;margin-top:8px;font-size:11px;color:var(--orange);font-weight:600}
+.roster-card{background:var(--card);border:1px solid rgba(212,175,55,.2);border-radius:10px;overflow:hidden;text-align:center;padding-bottom:10px}
+.roster-card img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+.roster-card h3{font-size:13px;margin:8px 6px 2px}
+.roster-card .letter{color:var(--orange);font-size:11px;margin-top:6px}
+.roster-card .role{color:rgba(255,255,255,.5);font-size:11px;margin:2px 6px 8px}
+.roster-card a.buy{display:inline-block;font-size:11px;padding:6px 12px;border-radius:999px;background:var(--orange);color:#000;text-decoration:none;font-weight:600}
+#roster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.crew{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:16px;align-items:center}
+.crew img{width:100%;border-radius:12px;border:1px solid rgba(212,175,55,.3)}
+@media(max-width:700px){.crew{grid-template-columns:1fr}}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(212,175,55,.2);text-align:center;font-size:12px;color:rgba(255,255,255,.5)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+h1{background:linear-gradient(90deg,#ffe7a0,#d4af37,#fff,#d4af37,#ffe7a0);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 7s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+a.btn.solid{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{0%,100%{box-shadow:0 0 0 0 rgba(255,106,0,.0)}50%{box-shadow:0 0 18px 2px rgba(255,106,0,.45)}}
+.js .reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.js .reveal.in{opacity:1;transform:none}
+#video{position:relative}
+.sparks{position:absolute;inset:-20px 0;width:100%;height:calc(100% + 40px);pointer-events:none;z-index:0}
+#video>*:not(.sparks){position:relative;z-index:1}
+.gallery{display:grid;grid-template-columns:1fr;gap:16px}
+.stage{position:relative;width:min(100%,400px);margin:0 auto}
+.ambient{position:absolute;inset:-14%;background:url(assets/roster-poster.jpg) center/cover;filter:blur(46px) saturate(1.5);opacity:.55;border-radius:30px;animation:breathe 5s ease-in-out infinite;z-index:0}
+@keyframes breathe{50%{opacity:.85;transform:scale(1.04)}}
+@property --a{syntax:'<angle>';initial-value:0deg;inherits:false}
+.frame{position:relative;z-index:1;padding:2px;border-radius:18px;background:conic-gradient(from var(--a),#d4af37,#ff6a00,#ffe7a0,#d4af37);animation:spin 6s linear infinite}
+@keyframes spin{to{--a:360deg}}
+.vwrap{position:relative;border-radius:16px;overflow:hidden;background:#000;line-height:0}
+.vwrap video{width:100%;max-height:78vh;object-fit:contain;display:block}
+.bigplay{position:absolute;inset:0;margin:auto;width:76px;height:76px;border-radius:50%;border:2px solid var(--gold);background:rgba(0,0,0,.55);color:var(--gold2);font-size:30px;cursor:pointer;animation:pulse 1.8s ease-out infinite}
+.bigplay[hidden]{display:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(212,175,55,.6)}100%{box-shadow:0 0 0 26px rgba(212,175,55,0)}}
+.sound{position:absolute;left:10px;top:10px;z-index:3;padding:8px 12px;border:1px solid var(--gold);border-radius:999px;background:rgba(0,0,0,.65);color:var(--gold2);font:600 12px system-ui;cursor:pointer;line-height:1.2}
+.endcard{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:rgba(5,5,5,.86);backdrop-filter:blur(6px);line-height:1.4;text-align:center;padding:16px}
+.endcard[hidden]{display:none}
+.endcard b{color:var(--gold2);font-size:20px}
+.endcard .btn{background:transparent;cursor:pointer}
+.endcard .btn.solid{background:var(--orange)}
+.bar{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,255,255,.15)}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--orange))}
+.scenes{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 12px}
+.scene{flex:0 0 96px;scroll-snap-align:start;border:2px solid transparent;border-radius:10px;background:#111;padding:0;cursor:pointer;overflow:hidden;position:relative;transition:transform .25s,border-color .25s,box-shadow .25s}
+.scene img{width:100%;aspect-ratio:9/16;object-fit:cover;display:block}
+.scene span{position:absolute;left:4px;bottom:4px;background:rgba(0,0,0,.7);color:var(--gold2);font:700 10px system-ui;padding:2px 6px;border-radius:99px}
+.scene:hover{transform:translateY(-4px) scale(1.04)}
+.scene.on{border-color:var(--gold);box-shadow:0 0 18px rgba(212,175,55,.6)}
+@media(min-width:800px){.gallery{grid-template-columns:400px 1fr;align-items:start}.stage{margin:0}.scenes{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));max-height:640px;overflow-y:auto;overflow-x:hidden;scroll-snap-type:none}.scene{flex:none}}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;gap:8px;justify-content:center;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(0deg,rgba(5,5,5,.96),rgba(5,5,5,.75));transform:translateY(110%);transition:transform .4s}
+.sticky.show{transform:none}
+footer{padding-bottom:84px}
+@media(prefers-reduced-motion:reduce){h1,a.btn.solid,.ambient,.frame,.bigplay{animation:none}.js .reveal{opacity:1;transform:none;transition:none}.scene,.sticky{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="hero">
+    <img src="assets/pharaoh-book.webp" alt="Pharaoh with the Book that started the Movement" style="object-position:top">
+    <div>
+      <div class="kicker">Pharaoh Angels Inc. · 501(c)(3) · Micdom AI Records program</div>
+      <h1>Unsealing the Prophets</h1>
+      <p class="lead">The Book that started the Movement, and the story behind it.</p>
+      <div class="btnrow">
+        <a class="btn solid" href="https://registry.pharaoh-conglomerate.org/book/">Get the book</a>
+        <a class="btn" href="#story">Read the story</a>
+        <a class="btn" href="#give">Give</a>
+        <a class="btn" href="#video">Watch The 88s</a>
+      </div>
+    </div>
+  </div>
+  <nav aria-label="Main navigation">
+    <a class="btn" href="#story">The Story</a><a class="btn" href="#who">Who · What · Why</a><a class="btn" href="#give">Give</a><a class="btn" href="#video">The 88s Video</a><a class="btn" href="#platform">Live from H.A.L.L.EL</a><a class="btn" href="#roster">The 88s</a><a class="btn" href="#crew">The Crew</a>
+  </nav>
+</header>
+
+<section id="story">
+  <h2>The Book and the Story</h2>
+  <div class="card">
+    <!-- STORY -->
+    <p style="font-size:15px;color:rgba(255,255,255,.85)"><em>Unsealing the Prophets</em> is the Book that started the Movement. Micdom AI Records, the music and media program of Pharaoh Angels Inc., carries that story to the stage and the screen.</p>
+    <p class="muted">In honor of Colonel Ahamadu Varfee Sirleaf and his wife, Mama Hajah “The Seal.”</p>
+  </div>
+</section>
+
+<section id="who">
+  <h2>Who · Pharaoh M. Sirleaf</h2>
+  <div class="card"><p style="font-size:15px;color:rgba(255,255,255,.85)">Pharaoh/Priest, author, CEO, and legally blind entrepreneur, serving from within the Messianic Imperial Khamdom’s Commonwealth of Israel Church. The ministry platform is Pharaoh Angels Inc. dba Micdom AI Records.</p></div>
+</section>
+
+<section id="what">
+  <h2>What · Faith, creativity and participation</h2>
+  <div class="grid2">
+    <div class="card"><b>Faith &amp; Culture</b><p>Scripture, testimony, books, music, and cultural storytelling rooted in an “Out of Africa” vision.</p></div>
+    <div class="card"><b>Creative &amp; Digital</b><p>Music, audiobooks, digital content, and accessible automation, with Metatron and HALLEL as guides.</p></div>
+    <div class="card"><b>Participation</b><p>Project collaboration, membership pathways where offered, and tax-deductible giving (see below).</p></div>
+    <div class="card"><b>When</b><p>Live now. New content and projects are added over time; terms are shown on each page.</p></div>
+  </div>
+</section>
+
+<section id="how">
+  <h2>How · Start with a story</h2>
+  <div class="grid2">
+    <div class="card"><b>1. Watch, read, listen</b><p>The book, music, audiobooks, and explainers below.</p></div>
+    <div class="card"><b>2. Join or collaborate</b><p>Ask about project collaboration or affiliate participation at <a href="mailto:ministry@pharaoh-conglomerate.org">ministry@pharaoh-conglomerate.org</a>.</p></div>
+  </div>
+</section>
+
+<section id="why">
+  <h2>Why · Out of Africa, for the human family</h2>
+  <div class="card"><p style="font-size:15px;color:rgba(255,255,255,.85)">Be a first responder and eco-steward in an emerging cultural and business movement. Participate from the diaspora, from places with limited platform support, or from anywhere in the human family. The invitation is to creativity, ethical enterprise, cultural memory, and ecological stewardship, not a promise of income or guaranteed outcomes.</p></div>
+</section>
+
+<section id="give">
+  <h2>Give to the Movement</h2>
+  <div class="card" style="border-color:rgba(255,106,0,.4)">
+    <b>Pharaoh Angels Inc. is a U.S. 501(c)(3) tax-exempt organization.</b>
+    <p>Micdom AI Records is a program of Pharaoh Angels Inc., a cultural and ministry initiative and not a separate company. Gifts support the program and may be tax-deductible to the extent allowed by law. EIN 88-0836464.</p>
+    <p>Supporters may receive products or digital content as a thank-you. If you do, the deductible part of your gift is generally the amount above the fair market value of what you receive, and your receipt will state that value. Please consult your tax advisor.</p>
+    <div class="btnrow"><a class="btn solid" href="https://wa.me/17712238021?text=I%20would%20like%20to%20give%20to%20Pharaoh%20Angels%20Inc">Give (US)</a><a class="btn solid" href="https://wa.me/231776961800?text=I%20would%20like%20to%20give%20to%20Pharaoh%20Angels%20Inc">Give (LR)</a></div>
+  </div>
+  <p class="muted" style="margin-top:12px">Want to buy books, autographed digital content, apparel or tickets? Those sales are handled by our sister company on <a href="https://registry.pharaoh-conglomerate.org/#shop">registry.pharaoh-conglomerate.org</a>, and purchases are not donations.</p>
+</section>
+
+<section id="video">
+  <canvas class="sparks" id="sparks" aria-hidden="true"></canvas>
+  <h2>The 88s — Aleph to Shin</h2>
+  <p class="muted" style="margin:-6px 0 16px">Tap any scene to jump in. Turn the sound on for the full story.</p>
+  <div class="gallery" id="gallery">
+    <div class="stage">
+      <div class="ambient" aria-hidden="true"></div>
+      <div class="frame"><div class="vwrap">
+        <video id="gv" playsinline muted preload="metadata" poster="assets/roster-poster.jpg"><source src="assets/roster-captioned.mp4" type="video/mp4">Your browser can’t play this video. <a href="assets/roster-captioned.mp4">Download the MP4</a>.</video>
+        <button class="bigplay" id="bigplay" aria-label="Play video">▶</button>
+        <button class="sound" id="sound" hidden>🔊 Tap for sound</button>
+        <div class="endcard" id="endcard" hidden>
+          <b>Keep the Movement going</b>
+          <a class="btn solid" href="#give">Give</a>
+          <a class="btn" href="https://registry.pharaoh-conglomerate.org/book/">Get the book</a>
+          <button class="btn" id="replay" type="button">↺ Replay</button>
+        </div>
+        <div class="bar"><i id="bar"></i></div>
+      </div></div>
+    </div>
+    <div class="scenes" id="scenes" role="list" aria-label="Video scenes"></div>
+  </div>
+</section>
+
+<section id="platform">
+  <h2>Live from H.A.L.L.EL</h2>
+  <div id="platform-videos" class="grid2"><p class="muted" style="grid-column:1/-1;text-align:center">Loading platform feed…</p></div>
+</section>
+
+<section id="roster">
+  <h2>The 88s — Aleph to Shin</h2>
+  <div id="roster-grid"><p class="muted" style="grid-column:1/-1;text-align:center">Loading roster…</p></div>
+</section>
+
+<section id="crew">
+  <div class="crew">
+    <img src="assets/crew.webp" alt="Micdom Records AI Artists Crew, The Unsealing Tour" loading="lazy">
+    <div>
+      <h2>The Unsealing Tour, 2024–2026</h2>
+      <p class="lead">Produced by Micdom Records. The 88s, Kingdom Drill, and the Metatron interface, carrying the Movement from the studio to the stage.</p>
+      <p class="muted">Metatron is the interface that guides visitors, with H.A.L.L.EL and the AI artists as the supporting cast. These are creative characters, not people or authorities.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Micdom AI Records</strong> · a program of Pharaoh Angels Inc., a U.S. 501(c)(3) organization</p>
+  <p>Separate from Human Rights Angels Registry Inc. (registry.pharaoh-conglomerate.org). Product sales are handled by that company and are not charitable gifts.</p>
+  <p>© 2026 Pharaoh Angels Inc.</p>
+</footer>
+</div>
+
+<script>
+(function () {
+  var ROSTER_JSON = "/micdom-label/roster.json";
+  var IMAGE_BASE  = "/images/roster/";
+  var PLATFORM_FEED = "https://angels-hosts-api3.pharangels.workers.dev/v27.5/videos.json";
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+  function safeUrl(u){return /^(https?:\/\/|\/)/.test(u||"")?u:"#"}
+  function fail(id,msg){document.getElementById(id).innerHTML='<p style="color:#ff6a00;grid-column:1/-1;text-align:center">'+msg+'</p>'}
+
+  fetch(PLATFORM_FEED).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})
+    .then(function(d){
+      var box=document.getElementById("platform-videos");box.innerHTML="";
+      (d.videos||[]).filter(function(v){return v.status==="active"}).forEach(function(v){
+        var a=document.createElement("a");a.className="platform-card";a.href=safeUrl(v.youtube);a.target="_blank";a.rel="noopener";
+        a.innerHTML='<img src="https://img.youtube.com/vi/'+encodeURIComponent(v.id)+'/hqdefault.jpg" alt="'+esc(v.title)+'" loading="lazy"><div class="body"><b>'+esc(v.slot)+'</b><p>'+esc(v.title)+'</p><span class="watch">▶ Watch on YouTube</span></div>';
+        box.appendChild(a);
+      });
+      if(!box.children.length)fail("platform-videos","No videos live right now.");
+    }).catch(function(e){fail("platform-videos","Platform feed unavailable.");console.error(e)});
+
+  fetch(ROSTER_JSON).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})
+    .then(function(d){
+      var g=document.getElementById("roster-grid");g.innerHTML="";
+      (d.artists||[]).forEach(function(a){
+        var c=document.createElement("div");c.className="roster-card";
+        var extra=a.videoLink?'<a class="buy" style="margin-bottom:4px" href="'+esc(safeUrl(a.videoLink))+'">▶ Full Crew Video</a><br>':"";
+        var href=a.isGroupShot?safeUrl(a.videoLink||"#"):"/shop/"+encodeURIComponent(a.id);
+        c.innerHTML='<img src="'+IMAGE_BASE+esc(a.image)+'" alt="'+esc(a.name)+'" loading="lazy"><div class="letter">'+esc(a.letter)+' &middot; '+esc(a.gematria)+'</div><h3>'+esc(a.name)+'</h3><div class="role">'+esc(a.role||"")+'</div>'+extra+'<a class="buy" href="'+esc(href)+'">'+(a.isGroupShot?"Watch":"Shop")+'</a>';
+        g.appendChild(c);
+      });
+    }).catch(function(e){fail("roster-grid","Roster failed to load.");console.error(e)});
+})();
+</script>
+<div class="sticky" id="sticky"><a class="btn solid" href="#give">Give</a><a class="btn" href="https://registry.pharaoh-conglomerate.org/book/">Get the book</a></div>
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.1});
+  document.querySelectorAll('section').forEach(function(s){s.classList.add('reveal');io.observe(s)});
+  var st=document.getElementById('sticky');
+  addEventListener('scroll',function(){st.classList.toggle('show',scrollY>500)},{passive:true});
+
+  var v=document.getElementById('gv'); if(!v)return;
+  var big=document.getElementById('bigplay'),snd=document.getElementById('sound'),end=document.getElementById('endcard'),bar=document.getElementById('bar'),box=document.getElementById('scenes');
+  var step=6,count=0,thumbs=[],userPlayed=false;
+  function fmt(t){t=Math.floor(t);return Math.floor(t/60)+':'+('0'+t%60).slice(-2)}
+  function go(i){userPlayed=true;v.currentTime=i*step;v.muted=false;v.play().catch(function(){})}
+  fetch('assets/scenes/gallery.json').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(g){
+    step=g.step||6;count=Math.min(g.count||0,40);
+    for(var i=0;i<count;i++){(function(i){
+      var b=document.createElement('button');b.type='button';b.className='scene';b.setAttribute('role','listitem');b.setAttribute('aria-label','Jump to '+fmt(i*step));
+      b.innerHTML='<img loading="lazy" alt="" src="assets/scenes/s-'+('0'+(i+1)).slice(-2)+'.jpg"><span>'+fmt(i*step)+'</span>';
+      b.onclick=function(){go(i)};box.appendChild(b);thumbs.push(b);
+    })(i)}
+  }).catch(function(){box.style.display='none'});
+
+  var cur=-1;
+  v.addEventListener('timeupdate',function(){
+    if(v.duration)bar.style.width=(v.currentTime/v.duration*100)+'%';
+    var i=Math.min(Math.floor(v.currentTime/step),thumbs.length-1);
+    if(i!==cur&&thumbs[i]){if(thumbs[cur])thumbs[cur].classList.remove('on');thumbs[i].classList.add('on');cur=i;
+      if(box.scrollWidth>box.clientWidth+4&&box.scrollHeight<=box.clientHeight+4)box.scrollTo({left:thumbs[i].offsetLeft-box.clientWidth/2+thumbs[i].clientWidth/2,behavior:rm?'auto':'smooth'});
+      else box.scrollTo({top:thumbs[i].offsetTop-box.clientHeight/2+thumbs[i].clientHeight/2,behavior:rm?'auto':'smooth'})}
+  });
+  v.addEventListener('play',function(){big.hidden=true;end.hidden=true;snd.hidden=!v.muted});
+  v.addEventListener('pause',function(){if(!v.ended)big.hidden=false});
+  v.addEventListener('volumechange',function(){snd.hidden=!v.muted||v.paused});
+  v.addEventListener('ended',function(){end.hidden=false;big.hidden=true;snd.hidden=true});
+  big.onclick=function(){userPlayed=true;v.muted=false;v.play()};
+  snd.onclick=function(){userPlayed=true;v.currentTime=0;v.muted=false;v.play()};
+  document.getElementById('replay').onclick=function(){userPlayed=true;v.currentTime=0;v.muted=false;v.play()};
+  v.addEventListener('click',function(){if(!v.paused){userPlayed=true;v.pause()}});
+  if(!rm){new IntersectionObserver(function(es){es.forEach(function(e){
+    if(e.isIntersecting&&!userPlayed&&!v.ended){v.muted=true;v.play().catch(function(){})}
+    else if(!e.isIntersecting&&v.muted){v.pause()}
+  })},{threshold:.55}).observe(v)}
+
+  var cv=document.getElementById('sparks');
+  if(cv&&!rm){var cx=cv.getContext('2d'),P=[],vis=false,W,H;
+    function size(){var d=Math.min(devicePixelRatio||1,2);W=cv.clientWidth;H=cv.clientHeight;cv.width=W*d;cv.height=H*d;cx.setTransform(d,0,0,d,0,0)}
+    size();addEventListener('resize',size);
+    for(var k=0;k<38;k++)P.push({x:Math.random(),y:Math.random(),r:Math.random()*1.8+.5,s:Math.random()*.25+.08,a:Math.random()*6});
+    new IntersectionObserver(function(es){vis=es[0].isIntersecting;if(vis)tick()}).observe(cv);
+    function tick(){if(!vis)return;cx.clearRect(0,0,W,H);P.forEach(function(p){p.y-=p.s/300;p.a+=.03;if(p.y<0){p.y=1;p.x=Math.random()}
+      cx.globalAlpha=.25+.35*Math.abs(Math.sin(p.a));cx.fillStyle='#ffd77a';cx.beginPath();cx.arc(p.x*W+Math.sin(p.a)*6,p.y*H,p.r,0,7);cx.fill()});requestAnimationFrame(tick)}
+  }
+})();
+</script>
+</body>
+</html>
